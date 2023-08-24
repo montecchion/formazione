@@ -13,13 +13,15 @@
         width: 6vw;
         padding: .2em;
     }
+    .link {position: relative;} /*per non sovrapporre le immagini al titolo*/
+
 
     .link > a > img, a > img {
         width: 8vw; 
       }
 
     .apri_articolo {
-        width: 5.5%; /*la + verde per apreire*/
+        width: 5.5%; /*la + verde per aprire*/
     }
     .articolo_apre {
         border: .15em solid gray; /*il bordino del riquadro*/

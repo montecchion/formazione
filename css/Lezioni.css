@@ -404,6 +404,7 @@ position: absolute;
 right:2%;
 top: 1%;
 }
+
 .link > a, aside > a {
     opacity: .8;
     transition-property: opacity;
