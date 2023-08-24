@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* @media only print{
+button {
+display: none;
+}
+.verde, .arancio, .azzurro, .rosso, .giallo, .marrone, .viola {
+  display: none;
+}
+} */
+
+@media only screen {
+/* ============= Bottoni ========*/
+.verde, .arancio, .azzurro, .rosso, .giallo, .marrone, .viola {
+	display: inline-block;
+	border: .1em solid gray;
+	border-radius: .5em;
+	padding: 0.3em;
+	margin: 0.2em;
+  cursor: pointer;
+  opacity: .5;
+  transition-property: opacity;
+  transition-duration: .5s;
+  font-size: inherit; /*per permettere la riduzione con diversi formati*/
+}
+
+
+.verde{
+background-color: rgb(204, 255, 153);
+}
+
+.arancio{
+background-color: rgb(255, 204, 153);
+}
+
+.azzurro{
+background-color:rgb(204, 255, 255);
+}
+
+.rosso {
+background-color: rgb(255, 102, 102);
+}
+
+.giallo {
+background-color: rgb(255, 255, 102);
+}
+.marrone{
+background-color: rgb(204, 153, 102);
+}
+.viola{
+background-color: rgb(187, 175, 255);
+}
+
+.verde:hover, .arancio:hover, .azzurro:hover, .rosso:hover, .giallo:hover, .marrone:hover, .viola:hover {
+opacity: 1;
+cursor: pointer;
+transition-property: opacity;
+transition-duration: 1s;
+}
+
+
+
+
+
+/* ================== PER POESIA ======================= */
+.tabella_poesia{
+border: 0;
+border-collapse: collapse;
+width: 90%
+}
+.tabella_poesia td{
+min-width: 0;
+padding: 0;
+border: 0;
+}
+.tabella_poesia td:first-of-type {
+width: 8%;
+text-align: center;
+font-size: .8em;
+font-style: italic;
+}/*===========PER MOVIMENTO=========== */
+.nascondi_evidenzia {
+transform: scale(0,0); /* NOTE: Rende invisibile il riquadro evidenzia */
+transition-property: all;
+transition-duration: 1s;
+}
+.mostra_evidenzia {
+margin-right: 6%;
+margin-top: -4%;
+transition-property: all;
+transition-duration: 1s;
+}
+}
+/*=========== Per Sottolinea.js ============*/ /*fuori da only screen così viene presentata anche quando si stampa*/
+
+.mostra_verde{
+  background-color: rgb(204, 255, 153);
+  }
+  .mostra_arancio {
+  background-color: rgb(255, 204, 153);
+  }
+  .mostra_azzurro {
+  background-color: rgb(204, 255, 255);
+  }
+  .mostra_rosso {
+  background-color: rgb(255, 102, 102);
+  }
+  .mostra_giallo{
+  background-color: rgb(255, 255, 102);
+  }
+  .mostra_mar{
+  background-color: rgb(204, 153, 102);
+  }
+  .mostra_vio{
+  background-color: rgb(187, 175, 255);
+  }
+  
