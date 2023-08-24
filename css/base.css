@@ -113,7 +113,7 @@ text-decoration: none;
 }
 #pagina a:hover {
 color: rgb(239, 121, 104);
--webkit-transition: color .5s;
+transition: color .5s;
 -moz-transition: color .5s;
 }
 #pagina li a:hover {
@@ -129,22 +129,22 @@ font: italic 1em "gandhi_sansregular", Verdana sans-serif; /*12 px perché ul =1
 .nav a, .elenco_dis, .elenco_dsa, .elenco_bes {
 color: black;
 text-decoration: none;
--webkit-transition: color .5s;
+transition: color .5s;
 -moz-transition: color .5s;
 } 
 .nav a:hover, .elenco_dis a:hover {
 color: rgb(255, 0, 0);
--webkit-transition: color .5s;
+transition: color .5s;
 -moz-transition: color .5s;
 }
 .elenco_dsa a:hover {
 color:rgb(78, 204, 0);
--webkit-transition: color .5s;
+transition: color .5s;
 -moz-transition: color .5s;
 }
 .elenco_bes a:hover {
 color: rgb(0, 174, 255);
--webkit-transition: color .5s;
+transition: color .5s;
 -moz-transition: color .5s;
 }
 /* ====== FORMATTAZIONE ELENCO NAVIGAZIONE ========= */ 
@@ -226,8 +226,7 @@ box-shadow: 2px 2px 3px black;
 margin: 1.5%;
 float: left;
 min-height: 10em;
--webkit-transition: background-color 1s;
--moz-transition: background-color 1s;
+transition: background-color 1s;
 }
 /* Formattazione spazio 1*/
 .spazio1 {
@@ -263,8 +262,7 @@ clear: both;
 
 #indice_alunni:hover {
 background-color: rgb(255, 127, 0);
--webkit-transition: background-color 1s;
--moz-transition: background-color 1s;
+transition: background-color 1s;
 }
 
 /*Formattazione delle aree specifiche ---  */
@@ -357,18 +355,15 @@ background-color: rgb(178, 230, 255);
 }
 #pagina li:hover {
 background-color: rgb(255, 102, 102);
--webkit-transition: background-color 1s;
--moz-transition: background-color 1s;
+transition: background-color 1s;
 }
 #pagina .nav_dsa li:hover{
 background-color:  rgb(153, 204, 51);
--webkit-transition: background-color 1s;
--moz-transition: background-color 1s;
+transition: background-color 1s;
 }
 #pagina .nav_bes li:hover{
 background-color:  rgb(102, 204, 255);
--webkit-transition: background-color 1s;
--moz-transition: background-color 1s;
+transition: background-color 1s;
 }
 #pagina .elenco_doc dd ul {
 float: none;
@@ -391,7 +386,6 @@ margin-right: 30px;
 }
 figure {
 display: inline-block;
-float: left;
 }
 figcaption {
 text-align: center;
