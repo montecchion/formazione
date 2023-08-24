@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+/* GENERALE
+---------------------------------------*/
+/* ===== Web-Font utilizzati nella pagina */
+@font-face {
+    font-family: 'gandhi_sansregular';
+    src: url('GandhiSans-Regular-webfont.eot');
+    src: url('GandhiSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('GandhiSans-Regular-webfont.woff') format('woff'),
+         url('GandhiSans-Regular-webfont.ttf') format('truetype'),
+         url('GandhiSans-Regular-webfont.svg#gandhi_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'gandhi_sansitalic';
+    src: url('../fonts/GandhiSans-Italic-webfont.eot');
+    src: url('../fonts/GandhiSans-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/GandhiSans-Italic-webfont.woff') format('woff'),
+         url('../fonts/GandhiSans-Italic-webfont.ttf') format('truetype'),
+         url('../fonts/GandhiSans-Italic-webfont.svg#gandhi_sansitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'gandhi_sansbold';
+    src: url('../fonts/GandhiSans-Bold-webfont.eot');
+    src: url('../fonts/GandhiSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/GandhiSans-Bold-webfont.woff') format('woff'),
+         url('../fonts/GandhiSans-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/GandhiSans-Bold-webfont.svg#gandhi_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'gandhi_sansbold_italic';
+    src: url('../fonts/GandhiSans-BoldItalic-webfont.eot');
+    src: url('../fonts/GandhiSans-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/GandhiSans-BoldItalic-webfont.woff') format('woff'),
+         url('../fonts/GandhiSans-BoldItalic-webfont.ttf') format('truetype'),
+         url('../fonts/GandhiSans-BoldItalic-webfont.svg#gandhi_sansbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*@font-face {
+    font-family: 'ubuntu_titlingbold';
+    src: url('UbuntuTitling-Bold-webfont.eot');
+    src: url('UbuntuTitling-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('UbuntuTitling-Bold-webfont.woff2') format('woff2'),
+         url('UbuntuTitling-Bold-webfont.woff') format('woff'),
+         url('UbuntuTitling-Bold-webfont.ttf') format('truetype'),
+         url('UbuntuTitling-Bold-webfont.svg#ubuntu_titlingbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}*/
+
+ @font-face {
+  font-family: "Ubuntu-B";
+  src: url("Ubuntu-B.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+
+}
+@font-face {
+  font-family: "Ubuntu-BI";
+  src: url("Ubuntu-BI.ttf") format("truetype");
+  font-style: italic;
+  font-weight: bold;
+
+}
+@font-face {
+  font-family: "Ubuntu-C";
+  src: url("Ubuntu-C.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  font-stretch: condensed;
+
+}
+@font-face {
+  font-family: "Ubuntu-L";
+  src: url("Ubuntu-L.ttf") format("truetype");
+  font-style: normal;
+  font-weight: lighter;
+
+}
+@font-face {
+  font-family: "Ubuntu-LI";
+  src: url("Ubuntu-LI.ttf") format("truetype");
+  font-style: italic;
+  font-weight: lighter;
+
+}
+@font-face {
+  font-family: "Ubuntu-M";
+  src: url("Ubuntu-M.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+
+}
+@font-face {
+  font-family: "Ubuntu-MI";
+  src: url("Ubuntu-MI.ttf") format("truetype");
+  font-style: italic;
+  font-weight: normal;
+
+}
+@font-face {
+  font-family: "Ubuntu-R";
+  src: url("Ubuntu-R.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+
+}
+@font-face {
+  font-family: "Ubuntu-RI";
+  src: url("Ubuntu-RI.ttf") format("truetype");
+  font-style: italic;
+  font-weight: normal;
+
+} */
