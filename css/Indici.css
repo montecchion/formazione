@@ -93,7 +93,7 @@ border-radius: .8em;
 align-items: stretch;
 justify-content: space-evenly;
 flex-wrap: wrap;
-min-height: 60vh;
+min-height: 30vh;
 }
 .contenitore_icone  div, .contenitore_icone_generale div {
 display: flex; /*per poter centrare il paragrafo interno*/
