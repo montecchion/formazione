@@ -1,0 +1,91 @@
+/* ===== Web-Font utilizzati nella pagina */
+@font-face {
+    font-family: 'gandhi_sansregular';
+    src: url('../fonts/GandhiSans-Regular-webfont.eot');
+    src: url('../fonts/GandhiSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/GandhiSans-Regular-webfont.woff') format('woff'),
+         url('../fonts/GandhiSans-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/GandhiSans-Regular-webfont.svg#gandhi_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'gandhi_sansitalic';
+    src: url('../fonts/GandhiSans-Italic-webfont.eot');
+    src: url('../fonts/GandhiSans-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/GandhiSans-Italic-webfont.woff') format('woff'),
+         url('../fonts/GandhiSans-Italic-webfont.ttf') format('truetype'),
+         url('../fonts/GandhiSans-Italic-webfont.svg#gandhi_sansitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'gandhi_sansbold';
+    src: url('../fonts/GandhiSans-Bold-webfont.eot');
+    src: url('../fonts/GandhiSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/GandhiSans-Bold-webfont.woff') format('woff'),
+         url('../fonts/GandhiSans-Bold-webfont.ttf') format('truetype'),
+         url('../fonts/GandhiSans-Bold-webfont.svg#gandhi_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'gandhi_sansbold_italic';
+    src: url('../fonts/GandhiSans-BoldItalic-webfont.eot');
+    src: url('../fonts/GandhiSans-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/GandhiSans-BoldItalic-webfont.woff') format('woff'),
+         url('../fonts/GandhiSans-BoldItalic-webfont.ttf') format('truetype'),
+         url('../fonts/GandhiSans-BoldItalic-webfont.svg#gandhi_sansbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*==== FORMATTAZIONE PER STAMPA ===== */
+
+@page {
+margin: 0.5cm;
+margin-top: 1cm;
+} 
+
+
+@media only print {
+
+.nav, footer, img, .nav_dis, button, #documenti, .nav_dsa, .nav_bes {
+display: none; 
+margin: 0px;
+padding: 0px;
+}
+
+body {
+font: 1.2em/1.5em "GandhiSans", Verdana, sans-serif;
+color: black;
+background-image: none;
+margin: 0;
+}
+
+h1 {
+font-size: 18px;
+}
+
+#pagina h2 {
+width: 100%;
+border:0;
+text-align: center;
+}
+
+h4 {
+font-size: 16px;
+font-weight: bold;
+}
+p{
+page-break-after: auto;
+}
+
+@page {
+   @top-right {
+    content: "Pagine";
+   }
+}

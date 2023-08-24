@@ -1,0 +1,60 @@
+/*==== FORMATTAZIONE DEI FONT USATI ====== */
+
+@charset "utf-8";
+
+/* GENERALE 
+---------------------------------------*/
+/* ===== Web-Font utilizzati nella pagina */
+@font-face {
+font-family: "GandhiSans" ;
+src: url('../fonts/GandhiSans/GandhiSans-Regular.otf');
+font-weight: normal;
+font-style: normal;
+
+font-family: "GandhiSans";
+src: url('../fonts/GandhiSans/GandhiSans-Italic.otf');
+font-style: italic;
+
+font-family: "GandhiSans";
+scr: url('../fonts/GandhiSans/GandhiSans-BoldItalic.otf')
+font-style: italic;
+font-weight: bold;
+}
+/* ====================================        */
+body {
+font: 1.5em/1.5 "GandhiSans", Verdana, sans-serif; /* 24 pt */
+background-image: url(../img/Sfondo1.jpg);
+}
+h1 {
+font: 2em/1.5 "GandhiSans" bold, Verdana, sans-serif; /* 32 pt */
+text-align: center;
+text-shadow: 5px 5px 0 rgb(211,211,211);
+
+}
+h2 {
+font: bold 1,875em/1.5 "GandhiSans", Verdana, sans-serif; /* 30 pt */ 
+text-align: center;
+}
+
+h3 {
+font: bold 1,75/1.5 "GandhiSans", Verdana, sans-serif; /* 28 pt */
+}
+
+.nav li {
+font: italic 1em "GandhiSans", Verdana, sans-serif; /* 18 pt perché 18/24 del body = 0,75*/
+line-height: 1.5em;
+}
+
+.nav li ul {
+font: italic 0.75em "GandhiSans", Verdana sans-serif; /*12 pt perché ul =12pt*/
+} 
+.nav a {
+color: navy;
+text-decoration: none;
+padding: 10px;
+}
+.nav a:hover {
+background-color: red;
+color: red;
+font-weight: bold;
+}

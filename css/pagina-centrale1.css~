@@ -1,0 +1,287 @@
+@charset "utf-8";
+
+/*==== FORMATTAZIONE DEI FONT USATI ====== */
+
+@charset "utf-8";
+
+/* GENERALE 
+---------------------------------------*/
+/* ===== Web-Font utilizzati nella pagina */
+@font-face {
+font-family: "GandhiSans" ;
+src: url("../fonts/GandhiSans/GandhiSans-Regular.otf");
+font-style: normal;
+font-weight: normal;
+}
+@font-face {
+/*font-family: "GandhiSans"; */
+src: url("../fonts/GandhiSans/GandhiSans-Italic.otf");
+}
+@font-face {
+/* font-family: "GandhiSans"; */
+scr: url("../fonts/GandhiSans/GandhiSans-Bold.otf");
+}
+/* ============  FORMATTAZIONE DEL TESTO  ==================    */
+body {
+font: 150%/1.5 "GandhiSans", Verdana, sans-serif; /* 24 pt */
+color: black;
+background-image: url(../img/Sfondo1.jpg);
+}
+h1 {
+font: 2em/1.5 "GandhiSans" bold, Verdana, sans-serif; /* 32 pt */
+text-align: center;
+text-shadow: 3px 3px 0 rgb(211,211,211);
+
+}
+h2 {
+font: bold 1,875em/1.5 "GandhiSans", Verdana, sans-serif; /* 30 pt */ 
+text-align: center;
+}
+#pagina h2 {
+float: left;
+width: 60%;
+text-align: left;
+border-bottom: 2px inset red;
+}
+h3 {
+font: bold 1,75/1.5 "GandhiSans", Verdana, sans-serif; /* 28 pt */
+text-align: center;
+font-weight: bold;
+}
+#pagina h3 {
+text-align: left;
+clear: both;
+}
+h4 {
+font: italic .7/1.5 "GandhiSans", Verdana, sans-serif; /* 18 pt*/
+text-align: left;
+line-height: .5em;
+}
+#pagina h5 {
+font: normal .6/1 "GandhiSans", Verdana, sans-serif;
+line-height: .5em;
+margin-bottom: 1em;
+padding:0;
+}
+#normativa_elenco dd {
+font-size: .8em;
+margin-left: 3em; 
+ }
+#normativa_elenco dt {
+clear: both;
+}
+ #normativa_elenco small {
+font-weight: lighter; 
+ }
+a, #pagina a {
+color: black;
+text-decoration: none;
+}
+#pagina a:hover {
+color: rgb(239, 121, 104);
+-webkit-transition: color .5s;
+-moz-transition: color .5s;
+}
+#pagina li a:hover {
+color: black;
+}
+.nav li {
+font: italic .8em "GandhiSans", Verdana, sans-serif; /* 19 pt perché 19/24 del body = 0,8*/
+line-height: 1.2em;
+}
+.nav li ul {
+font: italic 1em "GandhiSans", Verdana sans-serif; /*12 pt perché ul =12pt*/
+} 
+.nav a, .elenco_dis, .elenco_dsa, .elenco_bes {
+color: black;
+text-decoration: none;
+-webkit-transition: color .5s;
+-moz-transition: color .5s;
+} 
+.nav a:hover, .elenco_dis a:hover {
+color: rgb(239, 121, 104);
+-webkit-transition: color .5s;
+-moz-transition: color .5s;
+}
+.elenco_dsa a:hover {
+color:rgb(81, 204, 90);
+-webkit-transition: color .5s;
+-moz-transition: color .5s;
+}
+.elenco_bes a:hover {
+color: rgb(105, 159, 214);
+-webkit-transition: color .5s;
+-moz-transition: color .5s;
+}
+/* ====== FORMATTAZIONE ELENCO NAVIGAZIONE ========= */ 
+.nav, .nav ul { /*formatta la parte generale dei due menù*/
+/*background-image: url('../img/Sfondo-scuro.jpg'); */
+background-color: rgb(236, 224, 208); /*colore particolare del menù preso dall'immagine*/
+list-style: none; /*toglie i punti dal menù*/
+margin: 0;
+margin-bottom: 2%;
+padding: 0; /*inizializza margini e padding posizionando i due menù nella parte più alta*/
+}
+.nav { /*formatta solo il menù generale*/
+border-bottom: 1px solid gray;
+/*border-radius: 10px; /*reonde arrotondati gli spigoli */
+padding-left: 10px; /*sposta leggermente il testo*/
+position: relative;
+z-index: 2;
+}
+.nav li { /*formatta le voci del menù primario*/
+display: inline-block;  /* sposta le voci del menù principale a sinistra e diventano flottanti per allinearle */				
+border-right: 1px dotted black;
+padding-right: 30px;
+padding-left: 30px;
+/*width: 8em; /* definisce la larghezza dei contenitori che contengono le parole della lista */
+}
+/*.nav li:first-child {
+width: 4em;
+}
+.nav li:last-child {
+width: 8em;
+} */
+.nav li ul {/*formatta il sottomenù*/
+display: none; /*elimina il sottomenù finché non passa il mouse sopra una voce*/
+padding: 10px;
+border-radius: 10px;
+background-color: rgba(236, 224, 208, .6);
+position: absolute; /*questo per renderlo indipendente dal menù iniziale*/
+z-index: 1;
+}
+.nav li ul li {
+border-right-style: none;
+display: inline-block;
+width: 4em;
+}
+.nav li:hover ul {
+display: block; /*fa apparire il sottomenù quando passa sopra il mouse alla voce*/
+/*position: absolute; /*posiziona il sottomenù al di fuori delle regole in una posizione assoluta altrimenti si sposterebbero tutte le voci
+del menù principale per fare posto alle secondarie*/
+margin-left: -35px; /*sposta il sottomenù a sinistra per allineare le parole tra loro*/
+}
+.nav li ul li {
+display: block; /*porta a capo riga le voci del sottomenù*/
+line-height: 1.5;
+}
+/*===================== Formattazione parte centrale ========================*/
+abbr:hover {
+cursor: help;
+}
+/* .cornice {	
+display: block;
+width: 90%;
+margin: auto;
+} */
+#intestazione {
+border-bottom: 2px dotted gray;;
+}
+/*Formattazione contenitore generale e degli spazi più piccoli*/
+.contenitore {
+margin: 2% 5% 2% 5%;
+}
+div[role="complementary"] {
+width: 27%;
+padding: 1%;
+border-radius: 3%;
+box-shadow: 2px 2px 3px black;
+margin: 2%;
+float: left;
+min-height: 10em;
+-webkit-transition: background-color 1s;
+-moz-transition: background-color 1s;
+}
+/* Formattazione spazio 1*/
+.spazio1 {
+background-color: rgba(251, 51, 51, .3);
+}
+.spazio1:hover{
+background-color: rgba(251, 51, 51, 1);
+}
+/* Formattazione spazio 2*/
+.spazio2 {
+background-color: rgba(154, 205, 50, .3);
+}
+.spazio2:hover {
+background-color: rgba(154, 205, 50, 1);
+}
+/*Formattazione spazio 3*/
+.spazio3 {
+background-color: rgba(173, 216, 230, .3);
+}
+.spazio3:hover {
+background-color: rgba(173, 216, 230, 1);
+}
+/*Formattazione delle aree specifiche --- DISABILITÁ */
+#disabilita, #DSA, #BES {
+margin: 2%;
+background-color: rgba(251, 51, 51, .1);
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+padding: .5em;
+clear: both;
+}
+.elenco_dis {
+padding-left: 2em;
+list-style: url('../img/freccia_rossa.png');
+}
+#DSA {
+background-color: rgba(154, 205, 50, .1);
+}
+.elenco_dsa {
+list-style: url('../img/freccia_verde.png');
+padding-left: 2em;
+}
+#BES {
+background-color: rgba(173, 216, 239, .1);
+}
+.elenco_bes {
+list-style: url('../img/freccia_blu.png');
+padding-left: 2em;
+}
+/* Formattazione del footer */
+footer {
+/*width: 90%;
+margin: auto; */
+background-color: rgba(236, 224, 208, .6);
+border-top: 1px solid black;
+padding: .2em;
+line-height: 1em;
+}
+/*==Formattazione pagine interne =======*/
+.sfondo_disabilita {
+background-color:  rgba(251, 51, 51, .4);
+padding: 20px;
+border-radius: 10px;
+}
+#pagina {
+background-color: white;
+padding: 10px;
+border-radius: 10px;
+}
+#pagina img {
+position: relative;
+top: 10px;
+ }
+#pagina ul {
+margin: 0;
+margin-right: 5%;
+padding: 0;
+float: right;
+}
+#pagina li {
+list-style-type: none;
+display: inline-block;
+border: 1px solid black;
+border-radius: 10px;
+background-color: rgba(251, 51, 51, .4);
+padding: 10px;
+margin: 20px;
+box-shadow: 3px 3px 1px gray;
+}
+#pagina li:hover {
+background-color: rgba(251, 51, 51, 1);
+-webkit-transition: background-color 1s;
+-moz-transition: background-color 1s;
+}
