@@ -158,7 +158,7 @@ padding: 0; /*inizializza margini e padding posizionando i due menù nella parte
 }
 .nav { /*formatta solo il menù generale*/
 border-bottom: 1px solid gray;
-/*border-radius: 10px; /*reonde arrotondati gli spigoli */
+/*border-radius: 10px; /*rende arrotondati gli spigoli */
 padding-left: 10px; /*sposta leggermente il testo*/
 position: relative;
 z-index: 2;
