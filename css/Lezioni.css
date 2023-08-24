@@ -288,7 +288,7 @@ blockquote::before {
 	/*Per aprire un tag <article> quando si schiaccia la +*/
 	padding: 1.2%;
 	height: auto; /*bisogna inserirlo per permettere di animare max-height*/
-	max-height: 7em;
+	max-height: 4em;
 	overflow: hidden;
 	transition-property: all;
 	transition-duration: 2s;
@@ -309,7 +309,7 @@ blockquote::before {
 .articolo_apre::before {
 	background-color: lightgray;
 	border-radius: .2em;
-	content: "Attività";
+	content: "Importante";
 	display: block;
 	font-size: .7em;
 	font-style: italic;
