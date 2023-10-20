@@ -165,15 +165,15 @@ blockquote::before {
 		box-shadow: .3em .3em .5em gray;
 }
 .riquadro_rosso {
-    background-color: lightcoral;
+    background-color: rgb(255, 194, 179)
 }
 
 .riquadro_verde {
-	background-color: lightgreen;
+	background-color: rgb(191, 255, 128)
 }
 
 .riquadro_blu {
-	background-color: lightsteelblue;
+	background-color: rgb(173, 194, 235)
 }
 
 /*==== Per il riquadro degli articoli ======= */
